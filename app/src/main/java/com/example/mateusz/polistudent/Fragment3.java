@@ -23,7 +23,6 @@ public class Fragment3 extends Fragment {
         webView3 = view.findViewById(R.id.webView3);
         webView3.loadUrl(getString(R.string.mapa));
         webView3.scrollTo(500,1000);
-        webView3.setInitialScale(90);
 
         SeekBar seekBar = (SeekBar) view.findViewById(R.id.seekBar);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {

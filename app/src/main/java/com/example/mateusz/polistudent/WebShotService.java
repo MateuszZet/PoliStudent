@@ -99,7 +99,7 @@ public class WebShotService extends Service {
         views.setImageViewBitmap(R.id.widget_image, bmp);
         widgetManager.updateAppWidget(ids, views);
 
-        Toast.makeText(this, "WebWidget Update", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "WebWidget Update", Toast.LENGTH_SHORT).show();
     }
 
     @Override
