@@ -18,63 +18,85 @@
 
             <Button
                 android:id="@+id/button1"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Edukacja.CL" />
+                android:text="Edukacja.CL"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jsos" />
+                android:text="Jsos"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/button4"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Smail" />
+                android:text="Smail"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/button5"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="ePortal"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/button6"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:layout_marginTop="10dp"
+                android:text="Samorząd"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/button7"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Polibudka"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/button11"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Palitechnika"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Gazetki"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Piwo"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oblicz Deadline"
+                android:textColor="@android:color/black" />
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

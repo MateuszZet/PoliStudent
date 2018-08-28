@@ -1,8 +1,19 @@
 <resources>
     <string name="app_name">PoliStudent</string>
     <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="jsos">https://jsos.pwr.edu.pl</string>
+    <string name="jakitydzien">https://jakitydzien.pl</string>
+    <string name="mapa">https://samorzad.pwr.edu.pl/fcp/8GBUKOQtTKlQhbx08SlkTVgJQX2o8DAoHNiwFE1wZDyEPG1gnBVcoFW8SBDRKTxMKRy0SODwBBAEIMQheCFVAORFCHzY/56/public/dane_wrss/w3_dane/mapa_kampusu_pwr.png</string>
+    <string name="gazetka">https://www.gazetkipromocyjne.net</string>
+    <string name="samorzad">https://samorzad.pwr.edu.pl</string>
+    <string name="educl">https://edukacja.pwr.wroc.pl/EdukacjaWeb/studia.do</string>
+    <string name="smail">https://smail.pwr.edu.pl/auth</string>
+    <string name="piwo">https://ontap.pl/wroclaw/multitapy</string>
+    <string name="deadline">https://www.kalendarz-365.pl/obliczac/okres-pomiedzy-dwiema-datami.html</string>
+    <string name="eportal">https://eportal.pwr.edu.pl</string>
+    <string name="palitechnika">https://palitechnika.wordpress.com</string>
+    <string name="polibudka">https://polibudka.pl</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>

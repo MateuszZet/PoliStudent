@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#af1c05</color>
+    <color name="colorPrimaryDark">#AF1C05</color>
+    <color name="colorAccent">#fbd09e</color>
+    <color name="colorSamorzad">#7ecded</color>
+    <color name="colorJsos">#468d33</color>
+    <color name="colorJT">#000000</color>
+    <color name="colorBeer">#f4a422</color>
+    <color name="coloreEportal">#0088cc</color>
+
 </resources>

@@ -17,7 +17,7 @@ public class Fragment1 extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_fragment1, container, false);
         webView = view.findViewById(R.id.webView);
-        webView.loadUrl("https://jakitydzien.pl");
+        webView.loadUrl(getString(R.string.jakitydzien));
         webView.setInitialScale(70);
 
         webView2 = view.findViewById(R.id.webView2);

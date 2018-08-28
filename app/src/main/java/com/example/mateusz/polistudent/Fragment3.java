@@ -21,9 +21,9 @@ public class Fragment3 extends Fragment {
         View view = inflater.inflate(R.layout.fragment_fragment3, container, false);
 
         webView3 = view.findViewById(R.id.webView3);
-        webView3.loadUrl("https://samorzad.pwr.edu.pl/fcp/8GBUKOQtTKlQhbx08SlkTVgJQX2o8DAoHNiwFE1wZDyEPG1gnBVcoFW8SBDRKTxMKRy0SODwBBAEIMQheCFVAORFCHzY/56/public/dane_wrss/w3_dane/mapa_kampusu_pwr.png");
+        webView3.loadUrl(getString(R.string.mapa));
         webView3.scrollTo(500,1000);
-
+        webView3.setInitialScale(90);
 
         SeekBar seekBar = (SeekBar) view.findViewById(R.id.seekBar);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
