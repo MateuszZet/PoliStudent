@@ -13,6 +13,7 @@
     <string name="eportal">https://eportal.pwr.edu.pl</string>
     <string name="palitechnika">https://palitechnika.wordpress.com</string>
     <string name="polibudka">https://polibudka.pl</string>
+    <string name="cal_pwr">http://pwr.edu.pl/studenci/kalendarz-akademicki</string>
 
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>

@@ -18,6 +18,14 @@ public class Fragment2 extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_fragment2, container, false);
 
+        Button button = view.findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.cal_pwr)));
+                startActivity(i);
+            }
+        });
+
         Button button1 = view.findViewById(R.id.button1);
         button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
