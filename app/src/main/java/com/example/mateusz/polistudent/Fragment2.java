@@ -106,6 +106,14 @@ public class Fragment2 extends Fragment {
             }
         });
 
+        Button button11 = view.findViewById(R.id.button12);
+        button11.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.prowadzacy)));
+                startActivity(i);
+            }
+        });
+
         return view;
 
     }
